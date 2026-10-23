@@ -1,44 +1,35 @@
+
 from pathlib import Path
+
 import joblib
 import numpy as np
 import pandas as pd
-
-from sklearn.metrics import (
-    cohen_kappa_score,
-    mean_squared_error,
-)
+from sklearn.metrics import cohen_kappa_score, mean_squared_error
 
 from features import extract_features
 from noise import inject_noise
 
 ROOT = Path(__file__).resolve().parents[1]
-DATA = ROOT / "data" / "processed"
-MODEL_DIR = ROOT / "models"
+DATA_DIR = ROOT / "data" / "processed"
+MODEL_PATH = ROOT / "models" / "grading_models.joblib"
 RESULT_DIR = ROOT / "results"
-RESULT_DIR.mkdir(parents=True, exist_ok=True)
 
-test = pd.read_csv(DATA / "test.csv")
-bundle = joblib.load(MODEL_DIR / "grading_models.joblib")
-
-vectorizer = bundle["vectorizer"]
-models = bundle["models"]
+RATES = [0.00, 0.05, 0.10, 0.20, 0.30]
+SEEDS = [11, 22, 33, 44, 55]
 
 
 def edit_distance(a, b):
-    """Levenshtein edit distance using O(len(b)) memory."""
     previous = list(range(len(b) + 1))
 
-    for i, char_a in enumerate(a, start=1):
+    for i, ca in enumerate(a, start=1):
         current = [i]
 
-        for j, char_b in enumerate(b, start=1):
-            current.append(
-                min(
-                    current[-1] + 1,
-                    previous[j] + 1,
-                    previous[j - 1] + (char_a != char_b),
-                )
-            )
+        for j, cb in enumerate(b, start=1):
+            current.append(min(
+                current[-1] + 1,
+                previous[j] + 1,
+                previous[j - 1] + (ca != cb),
+            ))
 
         previous = current
 
@@ -52,15 +43,13 @@ def calculate_cer(original, corrupted):
     return edit_distance(original, corrupted) / len(original)
 
 
-def evaluate_predictions(y_true, y_pred):
-    # Marks are on a 0-5 scale.
-    y_pred = np.clip(y_pred, 0, 5)
+def evaluate_predictions(y_true, predictions):
+    predictions = np.clip(predictions, 0, 5)
 
-    rmse = np.sqrt(mean_squared_error(y_true, y_pred))
+    rmse = np.sqrt(mean_squared_error(y_true, predictions))
 
-    # Compare ordinal half-mark categories.
     true_categories = np.rint(y_true * 2).astype(int)
-    pred_categories = np.rint(y_pred * 2).astype(int)
+    pred_categories = np.rint(predictions * 2).astype(int)
 
     qwk = cohen_kappa_score(
         true_categories,
@@ -71,50 +60,93 @@ def evaluate_predictions(y_true, y_pred):
     return rmse, qwk
 
 
-rates = [0.00, 0.05, 0.10, 0.20, 0.30]
-records = []
+def main():
+    test = pd.read_csv(DATA_DIR / "test.csv")
+    bundle = joblib.load(MODEL_PATH)
 
-original_answers = test["student_answer"].astype(str).tolist()
+    vectorizer = bundle["vectorizer"]
+    models = bundle["models"]
 
-for rate in rates:
-    noisy_test = test.copy()
+    original_answers = test["student_answer"].astype(str).tolist()
+    y_test = test["score_avg"].to_numpy(dtype=float)
 
-    noisy_answers = [
-        inject_noise(answer, rate, seed=1000 + i)
-        for i, answer in enumerate(original_answers)
-    ]
+    records = []
 
-    noisy_test["student_answer"] = noisy_answers
+    for seed in SEEDS:
+        for rate in RATES:
+            noisy_test = test.copy()
 
-    actual_cer = np.mean([
-        calculate_cer(original, corrupted)
-        for original, corrupted
-        in zip(original_answers, noisy_answers)
-    ])
+            noisy_answers = [
+                inject_noise(
+                    answer,
+                    rate,
+                    seed=seed * 10000 + i,
+                )
+                for i, answer in enumerate(original_answers)
+            ]
 
-    X_test = extract_features(noisy_test, vectorizer)
-    y_test = noisy_test["score_avg"].to_numpy(dtype=float)
+            noisy_test["student_answer"] = noisy_answers
 
-    for name, model in models.items():
-        predictions = model.predict(X_test)
+            actual_cer = np.mean([
+                calculate_cer(original, corrupted)
+                for original, corrupted in zip(
+                    original_answers, noisy_answers
+                )
+            ])
 
-        rmse, qwk = evaluate_predictions(y_test, predictions)
+            X_test = extract_features(noisy_test, vectorizer)
 
-        records.append({
-            "model": name,
-            "target_CER": rate,
-            "actual_CER": actual_cer,
-            "RMSE": rmse,
-            "QWK": qwk,
-        })
+            for name, model in models.items():
+                predictions = model.predict(X_test)
+                rmse, qwk = evaluate_predictions(
+                    y_test, predictions
+                )
 
-        print(
-            f"{name:12s} | target CER={rate:.0%} "
-            f"| actual CER={actual_cer:.3f} "
-            f"| RMSE={rmse:.4f} | QWK={qwk:.4f}"
+                records.append({
+                    "seed": seed,
+                    "model": name,
+                    "target_cer": rate,
+                    "actual_cer": actual_cer,
+                    "rmse": rmse,
+                    "qwk": qwk,
+                })
+
+                print(
+                    f"Seed={seed} | {name:12s} | "
+                    f"target={rate:.0%} | "
+                    f"actual={actual_cer:.3f} | "
+                    f"RMSE={rmse:.4f} | QWK={qwk:.4f}"
+                )
+
+    RESULT_DIR.mkdir(parents=True, exist_ok=True)
+
+    results = pd.DataFrame(records)
+    results.to_csv(
+        RESULT_DIR / "noise_evaluation_runs.csv",
+        index=False,
+    )
+
+    summary = (
+        results.groupby(["model", "target_cer"])
+        .agg(
+            mean_actual_cer=("actual_cer", "mean"),
+            mean_rmse=("rmse", "mean"),
+            std_rmse=("rmse", "std"),
+            mean_qwk=("qwk", "mean"),
+            std_qwk=("qwk", "std"),
         )
+        .reset_index()
+    )
 
-results = pd.DataFrame(records)
-results.to_csv(RESULT_DIR / "noise_evaluation.csv", index=False)
+    summary.to_csv(
+        RESULT_DIR / "noise_evaluation_summary.csv",
+        index=False,
+    )
 
-print("\nResults saved to results/noise_evaluation.csv")
+    print("\nMean metrics across seeds:")
+    print(summary.round(4).to_string(index=False))
+    print("\nSaved individual runs and aggregate summary.")
+
+
+if __name__ == "__main__":
+    main()

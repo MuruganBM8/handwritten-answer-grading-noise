@@ -1,4 +1,6 @@
+
 from pathlib import Path
+
 import joblib
 import pandas as pd
 
@@ -8,54 +10,60 @@ from sklearn.pipeline import make_pipeline
 from sklearn.preprocessing import StandardScaler
 from sklearn.svm import SVR
 
-from features import fit_vectorizer, extract_features
+from features import FEATURE_NAMES, fit_vectorizer, extract_features
+
 
 ROOT = Path(__file__).resolve().parents[1]
-DATA = ROOT / "data" / "processed"
+DATA_DIR = ROOT / "data" / "processed"
 MODEL_DIR = ROOT / "models"
-MODEL_DIR.mkdir(parents=True, exist_ok=True)
 
-train = pd.read_csv(DATA / "train.csv")
+TRAIN_PATH = DATA_DIR / "train.csv"
+MODEL_PATH = MODEL_DIR / "grading_models.joblib"
 
-vectorizer = fit_vectorizer(train)
-X_train = extract_features(train, vectorizer)
-y_train = train["score_avg"].to_numpy(dtype=float)
 
-models = {
-    "Dummy": DummyRegressor(strategy="mean"),
+def main():
+    train = pd.read_csv(TRAIN_PATH)
 
-    "SVR": make_pipeline(
-        StandardScaler(),
-        SVR(kernel="rbf", C=10, epsilon=0.1),
-    ),
+    vectorizer = fit_vectorizer(train)
+    X_train = extract_features(train, vectorizer)
+    y_train = train["score_avg"].to_numpy(dtype=float)
 
-    "RandomForest": RandomForestRegressor(
-        n_estimators=300,
-        min_samples_leaf=2,
-        random_state=42,
-        n_jobs=-1,
-    ),
-}
+    models = {
+        "Dummy": DummyRegressor(strategy="mean"),
 
-for name, model in models.items():
-    print(f"Training {name}...")
-    model.fit(X_train, y_train)
+        "SVR": make_pipeline(
+            StandardScaler(),
+            SVR(kernel="rbf", C=10, epsilon=0.1),
+        ),
 
-bundle = {
-    "vectorizer": vectorizer,
-    "models": models,
-    "feature_names": [
-        "tfidf_cosine",
-        "reference_word_overlap",
-        "jaccard_similarity",
-        "answer_length_ratio",
-        "word_count_difference",
-        "character_similarity",
-    ],
-}
+        "RandomForest": RandomForestRegressor(
+            n_estimators=300,
+            min_samples_leaf=2,
+            random_state=42,
+            n_jobs=-1,
+        ),
+    }
 
-output = MODEL_DIR / "grading_models.joblib"
-joblib.dump(bundle, output)
+    for name, model in models.items():
+        print(f"\nTraining {name}...")
+        model.fit(X_train, y_train)
+        print("Training completed.")
 
-print(f"\nModels saved to: {output}")
-print("Training complete.")
+    MODEL_DIR.mkdir(parents=True, exist_ok=True)
+
+    bundle = {
+        "vectorizer": vectorizer,
+        "models": models,
+        "feature_names": FEATURE_NAMES,
+    }
+
+    joblib.dump(bundle, MODEL_PATH)
+
+    print("\nTraining complete.")
+    print("Training rows:", len(train))
+    print("Number of features:", X_train.shape[1])
+    print("Saved models to:", MODEL_PATH)
+
+
+if __name__ == "__main__":
+    main()
