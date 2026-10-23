@@ -1,0 +1,40 @@
+
+# Python virtual environment
+.venv/
+venv/
+env/
+
+# Python cache
+__pycache__/
+*.py[cod]
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Environment variables and secrets
+.env
+.env.*
+
+# Downloaded datasets and generated data
+data/raw/*
+data/processed/*
+!data/raw/.gitkeep
+!data/processed/.gitkeep
+
+# Trained models
+models/*
+!models/.gitkeep
+
+# Generated experiment results
+results/*
+!results/.gitkeep
+
+# Keep the project lightweight
+*.joblib
+*.pkl
+
+# Editor and operating system files
+.vscode/
+.DS_Store
+Thumbs.db
+
