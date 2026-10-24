@@ -4,10 +4,12 @@ from pathlib import Path
 import joblib
 import numpy as np
 import pandas as pd
+
 from sklearn.metrics import cohen_kappa_score, mean_squared_error
 
 from features import extract_features
 from noise import inject_noise
+
 
 ROOT = Path(__file__).resolve().parents[1]
 DATA_DIR = ROOT / "data" / "processed"
@@ -62,10 +64,12 @@ def evaluate_predictions(y_true, predictions):
 
 def main():
     test = pd.read_csv(DATA_DIR / "test.csv")
-    bundle = joblib.load(MODEL_PATH)
+    saved = joblib.load(MODEL_PATH)
 
-    vectorizer = bundle["vectorizer"]
-    models = bundle["models"]
+    strategies = {
+        "ordinary": saved["ordinary"],
+        "noise_aware": saved["noise_aware"],
+    }
 
     original_answers = test["student_answer"].astype(str).tolist()
     y_test = test["score_avg"].to_numpy(dtype=float)
@@ -94,40 +98,41 @@ def main():
                 )
             ])
 
-            X_test = extract_features(noisy_test, vectorizer)
-
-            for name, model in models.items():
-                predictions = model.predict(X_test)
-                rmse, qwk = evaluate_predictions(
-                    y_test, predictions
+            for strategy_name, bundle in strategies.items():
+                X_test = extract_features(
+                    noisy_test,
+                    bundle["vectorizer"],
                 )
 
-                records.append({
-                    "seed": seed,
-                    "model": name,
-                    "target_cer": rate,
-                    "actual_cer": actual_cer,
-                    "rmse": rmse,
-                    "qwk": qwk,
-                })
+                for model_name, model in bundle["models"].items():
+                    predictions = model.predict(X_test)
 
-                print(
-                    f"Seed={seed} | {name:12s} | "
-                    f"target={rate:.0%} | "
-                    f"actual={actual_cer:.3f} | "
-                    f"RMSE={rmse:.4f} | QWK={qwk:.4f}"
-                )
+                    rmse, qwk = evaluate_predictions(
+                        y_test, predictions
+                    )
+
+                    records.append({
+                        "seed": seed,
+                        "training_strategy": strategy_name,
+                        "model": model_name,
+                        "target_cer": rate,
+                        "actual_cer": actual_cer,
+                        "rmse": rmse,
+                        "qwk": qwk,
+                    })
 
     RESULT_DIR.mkdir(parents=True, exist_ok=True)
 
     results = pd.DataFrame(records)
     results.to_csv(
-        RESULT_DIR / "noise_evaluation_runs.csv",
+        RESULT_DIR / "robustness_runs.csv",
         index=False,
     )
 
     summary = (
-        results.groupby(["model", "target_cer"])
+        results.groupby(
+            ["training_strategy", "model", "target_cer"]
+        )
         .agg(
             mean_actual_cer=("actual_cer", "mean"),
             mean_rmse=("rmse", "mean"),
@@ -139,13 +144,16 @@ def main():
     )
 
     summary.to_csv(
-        RESULT_DIR / "noise_evaluation_summary.csv",
+        RESULT_DIR / "robustness_summary.csv",
         index=False,
     )
 
-    print("\nMean metrics across seeds:")
+    print("\nRobustness comparison:")
     print(summary.round(4).to_string(index=False))
-    print("\nSaved individual runs and aggregate summary.")
+
+    print("\nSaved:")
+    print(RESULT_DIR / "robustness_runs.csv")
+    print(RESULT_DIR / "robustness_summary.csv")
 
 
 if __name__ == "__main__":
