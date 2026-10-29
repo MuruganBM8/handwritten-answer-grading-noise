@@ -21,6 +21,9 @@ data/processed/*
 !data/raw/.gitkeep
 !data/processed/.gitkeep
 
+# Handwriting validation images
+data/handwriting/images/
+
 # Trained models
 models/*
 !models/.gitkeep
@@ -29,12 +32,18 @@ models/*
 results/*
 !results/.gitkeep
 
-# Keep the project lightweight
+# Keep selected, useful experiment summaries
+!results/trocr_predictions.csv
+!results/noise_comparison.csv
+
+# Lightweight repository
 *.joblib
 *.pkl
+*.safetensors
+*.pt
+*.pth
 
 # Editor and operating system files
 .vscode/
 .DS_Store
 Thumbs.db
-

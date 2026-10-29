@@ -1,0 +1,301 @@
+image,ground_truth,recognized_text,reference_characters,edit_distance,cer,substitutions,deletions,insertions
+line_000.png,"assuredness "" Bella Bella Marie "" ( Parlophone ) , a lively song that changes tempo mid-way .","assuredness "" Bella Bella Marie "" ( Bishopsome ) a lively song that changes tempo midway",93,11,0.11827956989247312,6,5,0
+line_001.png,"I don't think he will storm the charts with this one , but it 's a good start .","I don't think he will storm the charts with this one , but it's a good start .",79,1,0.012658227848101266,0,1,0
+line_002.png,"CHRIS CHARLES , 39 , who lives in Stockton-on-Tees , is an accountant .","CHRIS CHARLES , 33 , who lives in Stockton - on - Tee's , is an accountant .",71,6,0.08450704225352113,1,0,5
+line_003.png,Become a success with a disc and hey presto ! You 're a star ... . Rolly sings with,Become a success with a disc and they presto ! You're a star ... Rolly sings with,83,4,0.04819277108433735,0,3,1
+line_004.png,"Tolch , as he is known in Tin Pan Alley , likes songs with a month in the title . He wrote","Folch , as he is known in Tin Pan Alley , lives , with a month in the title . He wrote",90,7,0.07777777777777778,3,4,0
+line_005.png,""" My September Love , "" the big David Whitfield hit of 1956 .",""" My September Love "" , the big David Whitfield hit of 1956 .",61,2,0.03278688524590164,2,0,0
+line_006.png,He is also a director of a couple of garages . And he finds time as well to be a lyric,He is also a director of a couple of garages . And he finds time as well to be a lyric,86,0,0.0,0,0,0
+line_007.png,"writer . He writes with Tolchard Evans , composer of "" Lady of Spain "" and other big hits .","writer . He writes with Tolchard Evans , composer of "" Lady of Spain "" and other big hits",91,2,0.02197802197802198,0,2,0
+line_008.png,"The numbers include "" Scotland the Brave , "" "" Men of Harlech , ""","the numbers include "" Scotland the Brave , "" "" Men of Harlem , """,65,3,0.046153846153846156,2,1,0
+line_009.png,"Fay Compton stars in "" No Hiding Place "" (I T V , 9.35 p.m. ) .","Bay Compton stars in "" No. Hiding Place "" ( I.T.P. , 9.33 p.m. ) .",63,8,0.12698412698412698,5,0,3
+line_010.png,She plays the possessive mother of a man whose hobby revolves,She plays the possessive mother of a man whose hobby revolves,61,0,0.0,0,0,0
+line_011.png,round a doll's house .,round a doll's house .,22,0,0.0,0,0,0
+line_012.png,"THREE people will be hypnotised in tonight's "" Lifeline ""","THREE people will be hypothesized in tonight's "" Lifeline """,57,5,0.08771929824561403,1,1,3
+line_013.png,"( B B C , 10.15 ) .","CBE , 10.15 ) .",19,6,0.3157894736842105,2,4,0
+line_014.png,""" McNamara's Band , "" "" Greensleeves "" and "" English Rose . """,""" Mr. Namara's band , "" "" Green sleeves "" and "" English base . """,61,7,0.11475409836065574,4,0,3
+line_015.png,of Rhodesia and Nyasaland ( 10.30 p.m. ) .,of Rhodesia and Nyasaland Co.30 p.m. ) .,42,4,0.09523809523809523,2,2,0
+line_016.png,They will be asked to comment on the design of everyday articles,They will be asked to comment on the design of everyday articles,64,0,0.0,0,0,0
+line_017.png,"playwright Arnold Wesker . "" Instead , Muggeridge's appointment","playwright Arnold Walker . "" Instead , Muggeridge's opportunity",63,9,0.14285714285714285,7,1,1
+line_018.png,such as a chair and a motor-car . The idea is to see what happens when,such as a chair and a motor-car . The idea is to see what happens when,70,0,0.0,0,0,0
+line_019.png,will be with Sir Roy Welensky the Premier of the Federation,will be with Sir Roy Welensky the Premier of the Federation,59,0,0.0,0,0,0
+line_020.png,parts of the mind not normally available without hypnosis are used .,parts at the wind not marginally available without hypnosis are used .,68,8,0.11764705882352941,6,0,2
+line_021.png,"I T V have postponed Malcolm Muggeridge's "" Appointment with","ITV have postponed Malcolm Muggeridge's "" Appointment with",60,2,0.03333333333333333,0,2,0
+line_022.png,"success last night in I T V's "" Private Potter , "" his","success last night in ITV's "" Private Potter , "" his",54,2,0.037037037037037035,0,2,0
+line_023.png,man could only be regarded as a machine .,man could only be regarded as a machine .,41,0,0.0,0,0,0
+line_024.png,"date . "" ACTOR Tom Courtenay was an outstanding","Hate . "" ACTOR Tom Courtenay was an outstanding",47,1,0.02127659574468085,1,0,0
+line_025.png,the switch because of the topicality of African,the switch because of the typicality of Africans,47,2,0.0425531914893617,1,0,1
+line_026.png,essay on soldiering which stated that a fighting,essory on coldbenting which started that a fighting,48,7,0.14583333333333334,4,0,3
+line_027.png,"Say Granada T V , the producers : "" We decided to make","Say Granada TV , the producers ! "" We decided to make",54,2,0.037037037037037035,1,1,0
+line_028.png,first big T V part . The play was a brilliantly-written,first big TV part . The play was a brilliantly-written,55,1,0.01818181818181818,0,1,0
+line_029.png,affairs . The Wesker interview will be seen at a later,offairs . The Wesker interview will be seen at a later,54,1,0.018518518518518517,1,0,0
+line_030.png,"craggy face , and obstinate , baffled eyes . They stripped","craggy lace , and obstinate , battled eyes . They stripped",58,3,0.05172413793103448,3,0,0
+line_031.png,claimed he had seen a vision of God - only the padre and his,claimed Ireland seem on vision of God - only the padre and his,60,8,0.13333333333333333,6,0,2
+line_032.png,"Potter screamed during an action , and was arrested . He","Potter screamed during an action , and was arrested . He",56,0,0.0,0,0,0
+line_033.png,"him of his ugly battle-dress , to leave him for",When others might be able to leave him for,47,23,0.48936170212765956,10,9,4
+line_034.png,vision .,visionplay .,8,4,0.5,0,0,4
+line_035.png,"what he was - Potter , a frightened boy who had a","what he was - better , a frightened boy who had an",49,3,0.061224489795918366,2,0,1
+line_036.png,"C O believed him . Courtenay played the part with a gawky ,","co believed him . Courtenay played the past with a gawley ,",59,6,0.1016949152542373,4,1,1
+line_037.png,Northern defiance . The cameras played continuously on his,Northern Defiance . The cameras played continuously on his,58,1,0.017241379310344827,1,0,0
+line_038.png,to the European Common Market .,to the European Common Market,31,2,0.06451612903225806,0,2,0
+line_039.png,"scene , ranging from pubs , the Eton wall game ,","scene , ranging from pubs , the Eton wall game ,",48,0,0.0,0,0,0
+line_040.png,"Dennis Brogan , Shelagh Delaney , and Alan Sillitoe .","Dennis Brogan , Shelagh Delaney , and Alan Sillitoe",53,2,0.03773584905660377,0,2,0
+line_041.png,"The film replaced "" What 's My Line ? "" and "" Be My","The film replaced "" What's My Line ? "" and "" Be My",51,1,0.0196078431372549,0,1,0
+line_042.png,British personalities . Among them - Professor,British personalities . Among them-Professor,46,2,0.043478260869565216,0,2,0
+line_043.png,The film covered a wide aspect of the British,The film covered a wide aspect of the British,45,0,0.0,0,0,0
+line_044.png,"Guest "" programmes because of an electricians'","Guest "" programmes because of an electricians",46,1,0.021739130434782608,0,1,0
+line_045.png,"of an American T V reporter , Eric Sevareid , and","of an American TV reporter , Eric Sevareid , and",49,1,0.02040816326530612,0,1,0
+line_046.png,strike . It showed Britain today through the eyes,strike . It showed Britain today through the eyes,49,0,0.0,0,0,0
+line_047.png,Britain was slipping behind ... .,Britain was slipping behind ... .,33,0,0.0,0,0,0
+line_048.png,to make the strongest criticisms . He said,to make the strongest criticisms . He said,42,0,0.0,0,0,0
+line_049.png,Shelagh Delaney and Alan Sillitoe attacked,Shelagh Delaney and Alan Sillitoe attacked,42,0,0.0,0,0,0
+line_050.png,"that in the race of the modern nations ,","that in the house of the modern nations ,",40,4,0.1,3,0,1
+line_051.png,education . It was left to reporter Sevareid,education . It was left to reporter Severiad,44,3,0.06818181818181818,3,0,0
+line_052.png,other chums sniffing the wind and,other chums sniffing the mind and,33,1,0.030303030303030304,1,0,0
+line_053.png,offering to drop by for a chat .,offering to drop by for a chat .,32,0,0.0,0,0,0
+line_054.png,arrived two hours earlier by appointment,arrived two hours earlier by appointment,40,0,0.0,0,0,0
+line_055.png,to talk to the author of Borstal Boy and,to talk to the author of Borstal Boy and,40,0,0.0,0,0,0
+line_056.png,"The Hostage about his new work , if any ,","The Hostage about his new work , if any ,",41,0,0.0,0,0,0
+line_057.png,and who is now being pluckily convivial,and who is now being pluckily comonial,39,4,0.10256410256410256,3,1,0
+line_058.png,"has rung a couple of times , calls from","has run going a couple of times , calls from",39,5,0.1282051282051282,0,0,5
+line_059.png,to fight off the frustration . The telephone,to fight off the frustration . The telephone,44,0,0.0,0,0,0
+line_060.png,ALSO present is a London journalist who,Also present it a London journalist who,39,4,0.10256410256410256,4,0,0
+line_061.png,the Synoptics can be reasonably solved by paying due regard to the time and,Mr. Symptics can be reasonably solved by praying due regard to the time and,75,6,0.08,4,1,1
+line_062.png,"plan and to the different public for which , or against which , the author wrote .","plan and to the different public for which , or against which , the author said .",82,5,0.06097560975609756,4,1,0
+line_063.png,The third article excluded any allegorical interpretation of the Gospel .,the third article excluded any allegorical interpretation of the Gospel .,73,1,0.0136986301369863,1,0,0
+line_064.png,The second said that the problems which arise from the comparisons with,The second serial that the problems which arise from the comparisons with,71,4,0.056338028169014086,2,0,2
+line_065.png,Fourth Gospel by explanations based on assumed textual dislocations . The,Forth Gospel by explanations based on assumed festival Moderations . The,73,11,0.1506849315068493,8,2,1
+line_066.png,There is a whole group of theories which attempt to explain the problems of the,there is a whole group of theories which attempt to explain the problems of the,79,1,0.012658227848101266,1,0,0
+line_067.png,"could of the chaos by placing the fragments , or sheets , or pages , in order .","could at the chaos by placing the fragments , or sheets , or pages , in order .",79,2,0.02531645569620253,2,0,0
+line_068.png,present state of the Gospel is the result of an accident-prone history . The,present stock of the Gospel is the result of an accident - prone history . The,76,5,0.06578947368421052,3,0,2
+line_069.png,"accidentally damaged . An editor , who was not the author , made what he","accidentally damaged . In addition , who was not the another , made what he",72,8,0.1111111111111111,5,0,3
+line_070.png,"original was written on a roll , or codex , which fell into disorder or was","original case written on a roll , or codex , which tell into discoder or was",75,5,0.06666666666666667,2,1,2
+line_071.png,showing that such changes are part of a,showing that such changes are part of a,39,0,0.0,0,0,0
+line_072.png,how this enlargement was effected nor has he,how this enlargement was effected nor has he,44,0,0.0,0,0,0
+line_073.png,The one real weakness of the Commentator's,The one real weakness of the Commentator's,42,0,0.0,0,0,0
+line_074.png,this is possible it is necessary to examine the,this is possible it is necessary to examine the,47,0,0.0,0,0,0
+line_075.png,"he has not , until now , been able to exhibit exactly","he has not , until now , been able to exhibit exactly",53,0,0.0,0,0,0
+line_076.png,been able to explain the textual movements by,been able to explain the textual movements by,45,0,0.0,0,0,0
+line_077.png,"case is that , in common with all his colleagues ,","case is that , in common with all his colleagues ,",50,0,0.0,0,0,0
+line_078.png,text of the Gospel .,text of the Gospel .,20,0,0.0,0,0,0
+line_079.png,simple and coherent plan . To understand how,simple and coherent plan . To understand how,44,0,0.0,0,0,0
+line_080.png,wording . It is not possible to establish any one,wording . It is not possible to establish any one,49,0,0.0,0,0,0
+line_081.png,THE Fourth Gospel was almost certainly,THE Fourth Gospel was almost certainly,38,0,0.0,0,0,0
+line_082.png,Gospel represents the work of generations of,Gospel represents the work of generations of,44,0,0.0,0,0,0
+line_083.png,scholars who have compared the many manu-,scholars who have compared the many man in -,41,4,0.0975609756097561,1,0,3
+line_084.png,written in Greek . A modern text of the,written in Greek . A modern text of the,39,0,0.0,0,0,0
+line_085.png,which is most likely to have been the original,which is most likely to have been the original,46,0,0.0,0,0,0
+line_086.png,text with absolute precision .,"text with absolute precision ,",30,1,0.03333333333333333,1,0,0
+line_087.png,scripts of John and worked out the version,scripts of John and worked out the version,42,0,0.0,0,0,0
+line_088.png,paragraphos markings were omitted . C. H. Roberts is of,paragraphers markings were omitted . C.H. Roberts is of,55,3,0.05454545454545454,1,1,1
+line_089.png,"The bar was the commonest marking , but others","The bar was the commonest working , but others",46,2,0.043478260869565216,2,0,0
+line_090.png,"some markings would be used , although which , it is","some workshops would be used , "" Ough which , it is",52,11,0.21153846153846154,8,2,1
+line_091.png,impossible to say .,unpassible to say .,19,3,0.15789473684210525,3,0,0
+line_092.png,were also used . Dots sometimes served in place of the,were also used . Acts sometimes served in place of the,54,2,0.037037037037037035,2,0,0
+line_093.png,"bar , and there are cases where spacing is used as","bas , and there are cases where spacing is used as",50,1,0.02,1,0,0
+line_094.png,the opinion that in the original of the Fourth Gospel,the opinion that in the original of the Fourth Gospel,53,0,0.0,0,0,0
+line_095.png,it is now used to mark a paragraph ending . Frequently,it is now used to work a paragraph ending . Frequently,54,2,0.037037037037037035,2,0,0
+line_096.png,the original of the Gospel would be unmarked . The,the original of the Gospel would be unwicked . The,50,3,0.06,3,0,0
+line_097.png,Professor E. G. Turner is inclined to take the view that,Professor E. G. Turner is inclined to take view that,56,4,0.07142857142857142,0,4,0
+line_098.png,about one third of a page of Souter's print .,about one third of a page of Souter's print .,45,0,0.0,0,0,0
+line_099.png,manuscripts . A common size of column would hold,Monuscripts . A common size of column would hold,48,2,0.041666666666666664,2,0,0
+line_100.png,columns . This is the invariable practice of ancient,columns . This is the invariable practice of ancient,52,0,0.0,0,0,0
+line_101.png,"whether paragraphed or not , would be laid out in","whether paragraphed or not , would be laid out in",49,0,0.0,0,0,0
+line_102.png,"original of the Gospel , whether written on a roll or codex ,","original of the Gospel , whether written on a roll or codex ,",61,0,0.0,0,0,0
+line_103.png,a simple and serviceable book . It was robust - the number,a simple and sex-crable book . It was robust - the number,58,4,0.06896551724137931,3,1,0
+line_104.png,an easy form of book in which to find a,an easy form of book in which # to find a,39,2,0.05128205128205128,0,0,2
+line_105.png,reference .,reference .,11,0,0.0,0,0,0
+line_106.png,The edge of this sheet was attached to a wooden dowel,the edge of this sheet was attached to a wooden clawel,53,4,0.07547169811320754,3,0,1
+line_107.png,this - and it was easily stored . It had two disadvantages . It,this - and it was easily stored . It had two disadvantages . It,63,0,0.0,0,0,0
+line_108.png,and the sheet wound round this central pin . The roll made,and the sheet wound round this central pain . The roll made,58,1,0.017241379310344827,0,0,1
+line_109.png,which have survived the centuries is ample evidence of,which have survived the centuries is ample evidence of,54,0,0.0,0,0,0
+line_110.png,"was generally a single-sided form of book , and it was not","was generally a simple-sided form of back , and it was not",58,4,0.06896551724137931,4,0,0
+line_111.png,"overwhelmed Herculaneum and Pompeii in A.D. 79 , his","overwhelmed Herculaneum and Pompeii in A.D. 79 , his",52,0,0.0,0,0,0
+line_112.png,the elder Pliny tells of the use of papyrus in roll-making .,the older Pliny tells of the use of papyrus in roll-making .,60,1,0.016666666666666666,1,0,0
+line_113.png,The other form of book was the codex . In this the,The other form of book was the codex . In this the,50,0,0.0,0,0,0
+line_114.png,they are in modern books .,they are in modern books,26,2,0.07692307692307693,0,2,0
+line_115.png,sheets were bound together down one edge much as,sheets were bound together down one edge much as,48,0,0.0,0,0,0
+line_116.png,information is contemporaneous with the New Testament .,information is contemporaneous with the New Testament .,55,0,0.0,0,0,0
+line_117.png,"ecclesiastical circles . In his Natural History , 13 . 11-12 ,","ecclesiastical circles . In his Natural History , 13.11.12 ,",62,3,0.04838709677419355,1,2,0
+line_118.png,As Pliny was killed in the eruption of Vesuvius which,As Pliny was killed in the eruption of Vesuvius which,53,0,0.0,0,0,0
+line_119.png,This last objection might have had some weight in,this last objection might have had some weight in,49,1,0.02040816326530612,1,0,0
+line_120.png,"the roll , a sheet could easily be glued on .","the roll , a sheet could easily be glued on .",45,0,0.0,0,0,0
+line_121.png,whether or not a particular text was written on,whether or not a particular test was written on,47,1,0.02127659574468085,1,0,0
+line_122.png,might be bulky . It is sometimes possible to tell,might be bulky . It is sometimes possible to tell,49,0,0.0,0,0,0
+line_123.png,Against these advantages the codex was fragile and,against these advantages the codex was fragile and,50,1,0.02,1,0,0
+line_124.png,"writing , but any papyrus left unused at the","writing , but any papyrus left unused at the",44,0,0.0,0,0,0
+line_125.png,a roll or a codex . Rolls were prepared for,a roll or a codex . Rolls were prepared for,43,0,0.0,0,0,0
+line_126.png,end could be cut off . If the text was longer than,end could be cut off . If the text was longer than,50,0,0.0,0,0,0
+line_127.png,The codex form was not so accommodating . Even,The cockx form was not so accommodating . Even,46,2,0.043478260869565216,2,0,0
+line_128.png,while one whole side of his roll was unused .,while one whole side of his roll was unused .,45,0,0.0,0,0,0
+line_129.png,"over the binding , or the whole codex rebound .","over the binding , or the whole codex relonment .",47,5,0.10638297872340426,3,0,2
+line_130.png,"The verso of the roll was blank , and one","The Verso of the roll was blank , and one",41,1,0.024390243902439025,1,0,0
+line_131.png,"in the case of the single-sheet quire , an extra","in the case of the single-sheet quite , an extra",48,1,0.020833333333333332,1,0,0
+line_132.png,"sending out his Gospel lacking the ending ,","sending out his Gospel lacking the ending ,",43,0,0.0,0,0,0
+line_133.png,"cannot think of an author , Mark for example ,","cannot think of an author , Mark for example ,",46,0,0.0,0,0,0
+line_134.png,sheet glued on might have to be gummed on,sheet glued on night have to be gummed on,41,1,0.024390243902439025,1,0,0
+line_135.png,in it the reservoir ... and I made both the,"in other reservoirs . "" And I made both the",43,8,0.18604651162790697,4,2,2
+line_136.png,"construction in lines 9 , 23-25 of the Moabite Stone ,","constitution in Cinos ? , 23.2 S. of the Macbite plane ,",54,15,0.2777777777777778,11,1,3
+line_137.png,which read : And I built Baal-meon and made,which need : And I built Baal- mean and made,43,4,0.09302325581395349,3,0,1
+line_138.png,A natural transition from gardens and,a national transition from gardens and,37,4,0.10810810810810811,3,0,1
+line_139.png,reservoirs for water inside the town .,resolutions for water inside the dawn .,38,8,0.21052631578947367,7,0,1
+line_140.png,the rock . King Mesha of Moab boasts of their,"the March , being Marina of Malo boats of their",45,15,0.3333333333333333,9,2,4
+line_141.png,supply . The pools are probably natural springs,supply . The pads and probably natural springs,47,5,0.10638297872340426,4,1,0
+line_142.png,enlarged to become reservoirs or cisterns in,an longed to become reservoirs on cipleums in,44,9,0.20454545454545456,8,0,1
+line_143.png,orchards to the vital question of water,an clands to the vital question of vector,39,9,0.23076923076923078,7,0,2
+line_144.png,"the Shmah , loves the Lord God with","the Shmah , loves the Lord God with",35,0,0.0,0,0,0
+line_145.png,is the Shamir and such a man fulfils,is the Shamir and such a man full Bills,36,4,0.1111111111111111,1,0,3
+line_146.png,"prayer says : "" What am I ? A worm "" , he","proeger says : "" What can I ? A worm "" , he",41,5,0.12195121951219512,3,0,2
+line_147.png,"all his heart , and with all his soul and",all his heart and with all his soul and,41,2,0.04878048780487805,0,2,0
+line_148.png,"word "" SHAMIR "" means guarded or preser-","word "" SHAMIR "" means guarded or press",40,3,0.075,1,2,0
+line_149.png,"ved . Therefore , the real man , who","ved . Therefore , the real man , who",36,0,0.0,0,0,0
+line_150.png,with all his might and studies the,with all his might and studies the,34,0,0.0,0,0,0
+line_151.png,"regards himself as insignificant , as the","regards himself , as insignificant , as the",41,2,0.04878048780487805,0,0,2
+line_152.png,word of God .,word of God,13,2,0.15384615384615385,0,2,0
+line_153.png,The word Shamir was used as a,The word Shamir was used as a,29,0,0.0,0,0,0
+line_154.png,personal name ( Git. 68a ) . The Hebrew,personal name ( Gitt. 68a ) . The Hebrew,39,1,0.02564102564102564,0,0,1
+line_155.png,us earthly creatures to build an Altar,as earthly creatures to build an Altar,38,1,0.02631578947368421,1,0,0
+line_156.png,"This man is the worm , the creature that",This man is the warm the creature that,40,3,0.075,1,2,0
+line_157.png,"to mould our character , to melt our",to mould our character to melt our,36,2,0.05555555555555555,0,2,0
+line_158.png,Such a Shamir possesses the real acid,Such a Shamir possesses the real acid,37,0,0.0,0,0,0
+line_159.png,self against all the irrelevant pleasures .,self against all the irrelevant pleasures .,43,0,0.0,0,0,0
+line_160.png,for God to come nearer to God .,for God to come nearer to God .,31,0,0.0,0,0,0
+line_161.png,a man is the Shamir that guards him-,a man is the Shamir that guards him-,36,0,0.0,0,0,0
+line_162.png,cuts and polishes Altar-Stones . Such,cuts and polishes . Altar-stones . Such,37,3,0.08108108108108109,1,0,2
+line_163.png,heart of stone . This Shamir helps,heart of Stone . This Shamir helps,34,1,0.029411764705882353,1,0,0
+line_164.png,facts . And these creatures existed from the,facts . And these creatures existed from the,44,0,0.0,0,0,0
+line_165.png,"beginning . It is "" the stone , which the builders","beginning . It is the stone , which the builders",50,2,0.04,0,2,0
+line_166.png,"of the corner "" . ( Ps. 118 , 22 . ) And the stone shall","of the corner ? ( Ps. 118 , 22 ) And the stume shall",56,7,0.125,3,4,0
+line_167.png,tell !,tele !,6,1,0.16666666666666666,1,0,0
+line_168.png,The action of the Shamir writes books and their,The action of the Shawir writes books and their,47,1,0.02127659574468085,1,0,0
+line_169.png,"diamond that incises the hardest rock , the hardest","diamond that incises the hardest rock , the hardest",51,0,0.0,0,0,0
+line_170.png,books are readable . This Shamir is indeed a rare,books are readable . This Shamir is indeed a rare,49,0,0.0,0,0,0
+line_171.png,"refused , but it is to become the head-stone","refused , but it is to become the head-stone",44,0,0.0,0,0,0
+line_172.png,"crushing our soul "" ( see Hab. 2 , 10-11 ) . And it is","crushing our soul "" ( see Hab. 2 , 10-11 ) . And it is",54,0,0.0,0,0,0
+line_173.png,"Lord , as the waters cover the sea . "" ( Hab. 2 , 14 . )","Lord , as the waters cover the sea ? ( ( Hab. 2. 14 ) .",56,6,0.10714285714285714,5,1,0
+line_174.png,""" For the stone shall cry out of the wall "" , like",""" For the stone shall cry out of the wall "" , like",50,0,0.0,0,0,0
+line_175.png,filled with the knowledge of the Glory of the,filled with the knowledge of the Glory of the,45,0,0.0,0,0,0
+line_176.png,"creak in answer "" "" if the roof of our security is","creak in answer "" "" If the roof of out security is",50,2,0.04,2,0,0
+line_177.png,"through the Shamir : "" That the earth shall be","through the Shamir : "" That the earth shall be",46,0,0.0,0,0,0
+line_178.png,"Baalam's ass , "" and the purlin of timber shall","Barlow's ass "" and the purline of timber shall",47,6,0.1276595744680851,3,2,1
+line_179.png,the Light which can be read in every,the Light which can be read in every,36,0,0.0,0,0,0
+line_180.png,They make us the Altar for God to emit,They make us the Altar for God to emit,38,0,0.0,0,0,0
+line_181.png,a deep impression on our feelings and senses .,a deep impression on our feelings and senses .,46,0,0.0,0,0,0
+line_182.png,"of life , and all facts are "" one "" . We have all","of life , and all facts are "" one ! . We have all",49,1,0.02040816326530612,1,0,0
+line_183.png,"most important creature , that was created on","most important creature , that was created on",45,0,0.0,0,0,0
+line_184.png,"Sabbath , real peace to the whole world .","Sabbath , real peace to the whole world .",41,0,0.0,0,0,0
+line_185.png,"language . The Shamir is the "" seventh "" and","language . The Shampir is the ' seventh "" aged",44,4,0.09090909090909091,2,0,2
+line_186.png,"which is written on two plates , the hard facts","which is written , by two plates , the hard facts",47,4,0.0851063829787234,2,0,2
+line_187.png,"the eve of the Sabbath , to bring the","the eve of the Sabbath , to bring the",37,0,0.0,0,0,0
+line_188.png,"The Shamir's daily life writes the Decalogue ,",The Shawyir's daily life writes the Decalogue,46,4,0.08695652173913043,1,2,1
+line_189.png,come across human Shamirs and they leave,"cope , across human Shamfirs , and they leave",40,6,0.15,1,0,5
+line_190.png,"diligently unto my commandments , which I command",diligently up to my company depends which I campaigned,49,15,0.30612244897959184,6,2,7
+line_191.png,"shall come to pass , if 1ye shall 1hearken","shall come to pass , if the shall that they",42,9,0.21428571428571427,8,0,1
+line_192.png,"your soul . "" This may seem very good , but there","your soul . "" This , may seem very good , but there",49,2,0.04081632653061224,0,0,2
+line_193.png,is something deficient .,is something to fright .,24,7,0.2916666666666667,5,1,1
+line_194.png,serve Him with all your heart and with all,serve thing with all your heart and with all,42,4,0.09523809523809523,2,0,2
+line_195.png,"you this day , to love the Lord your God , and to","you this day , to love the Lord your God , and to",49,0,0.0,0,0,0
+line_196.png,"Then the whole earth will be His Altar . "" And it","They the whole earth will be this Altar . "" And it",49,3,0.061224489795918366,2,0,1
+line_197.png,"Lord God with all their visionary power ,","Lord God with all their visionary power ,",41,0,0.0,0,0,0
+line_198.png,"summons of destiny , to solve the economic","summons of destiny , to solve the economic",42,0,0.0,0,0,0
+line_199.png,the work will have to be done by each,the work will have to be done by each,37,0,0.0,0,0,0
+line_200.png,mind together we cannot solve the further,mind together we cannot solve the further,41,0,0.0,0,0,0
+line_201.png,"Jochai ( Tanis 6a ) "" if Israel does not fulfil","Jockai ( Tanis Ga ) "" if Israel does not fulfil",47,2,0.0425531914893617,2,0,0
+line_202.png,"the wish of the Lord , failing to serve the","the wish of the Lord , failing to serve the",43,0,0.0,0,0,0
+line_203.png,Under such conditions without putting your,Under such conditions without putting your,42,0,0.0,0,0,0
+line_204.png,problems . Hence says Rabbi Simeon ben,problems . Hence says Rabbi Simeon ben,38,0,0.0,0,0,0
+line_205.png,"individual "" .","individual "" . """,14,2,0.14285714285714285,0,0,2
+line_206.png,"gratify selfish aims , then each man will gather-in","grafty selfish aims , then each man will gather - in",51,5,0.09803921568627451,0,2,3
+line_207.png,"for himself only , instead of all to help to gather your","for himself only , instead of all to help to gather your",56,0,0.0,0,0,0
+line_208.png,"and visionary power is not united , man will remain in his heart","and visionary power is not united , man will remain in his heart",64,0,0.0,0,0,0
+line_209.png,"They will not work in union . If physical power , spiritual power","They will not work in union . if physical power , spiritual power",65,1,0.015384615384615385,1,0,0
+line_210.png,"corn , your wine and your oil .","with , your wine and your oil",31,6,0.1935483870967742,4,2,0
+line_211.png,selfish and think only of one's personal advantage to,Selfish and think only of one's personal advantage to,53,1,0.018867924528301886,1,0,0
+line_212.png,our duty ) . Of course the individual will,our duty ) . Of course the individual will,42,0,0.0,0,0,0
+line_213.png,"freedom from fear , fear of starvation in the",freedom from fear of starvation in the,45,7,0.15555555555555556,0,7,0
+line_214.png,"the yourself is thy greatest enemy , the self-","the yourself in the greatest enemy , the self-",46,2,0.043478260869565216,2,0,0
+line_215.png,seeking self .,seeking self .,14,0,0.0,0,0,0
+line_216.png,Freedom from want cannot be fulfilled nor,Freedom from want cannot fulfilled nor,41,3,0.07317073170731707,0,3,0
+line_217.png,coming for the people in need . They will,coming for the people in need . They will,41,0,0.0,0,0,0
+line_218.png,"aside , and serve other gods , and worship them "" ,","aside and serve others goals , and worship them """,51,7,0.13725490196078433,1,4,2
+line_219.png,think of the animals first ( which is of course,think of the animals first ( which is of course,47,0,0.0,0,0,0
+line_220.png,"eat and be full but : "" Take heed to yourself ,","eat and be full but : "" Take head to yourself .",47,2,0.0425531914893617,2,0,0
+line_221.png,"that your heart be not deceived , and 1ye turn","that your heart be not deceived , and I've turn",46,3,0.06521739130434782,2,0,1
+line_222.png,midst of plenty . Help will not be easily forth-,midist of plenty . Help will not be easily forth-,48,1,0.020833333333333332,0,0,1
+line_223.png,"good land which the Lord 1giveth you . ""","good land twinch the Lord I give the you . "" .",40,9,0.225,3,0,6
+line_224.png,"two masters , and you worship self-interest , isolating","two masters , and you worship self-interest , isolating",55,0,0.0,0,0,0
+line_225.png,""" And then the Lord's wrath be kindled against you , and he","And then the Lord's wrath be kinded against you , and he",59,3,0.05084745762711865,0,3,0
+line_226.png,"shut up the heavens , that there is no rain , and that the land","shut up the heavens that there is no rain , and that the land",63,2,0.031746031746031744,0,2,0
+line_227.png,"yourself , under such conditions the goods are your gods .","yourself , under such conditions the goods are your goals .",58,2,0.034482758620689655,1,0,1
+line_228.png,And you serve Mammon and God . And you cannot serve,And you serve Mormon and God . And you cannot serve,51,2,0.0392156862745098,2,0,0
+line_229.png,yield not her fruit and lest 1ye perish quickly from off the,yield not her Fruit and lost the parish quickly from off the,60,5,0.08333333333333333,5,0,0
+line_230.png,"adds and in your soul , searching your soul .","odds and in your soul , searching your soul .",45,1,0.022222222222222223,1,0,0
+line_231.png,For without the vision to serve the Lord your God with all,For without the vision to serve the Lord your God with all,58,0,0.0,0,0,0
+line_232.png,"up these my words in your heart and in your soul . "" The text","up these my word's in your heart and in your soul . "" The text",61,1,0.01639344262295082,0,0,1
+line_233.png,"the problem of life cannot be solved . "" Therefore shall 1ye lay","the problem of life cannot be solved . "" Therefore shall be lay",64,2,0.03125,1,1,0
+line_234.png,your heart and with all your soul and with all your might,your heart and with all your soul and with all your might,57,0,0.0,0,0,0
+line_235.png,"in the first part of the Shmah , we have first "" and","in the first part of the showall , we have first "" and",52,5,0.09615384615384616,3,0,2
+line_236.png,to the children any more diligently and the,to the children any more diligently and the,43,0,0.0,0,0,0
+line_237.png,"shall teach them to your children . "" And as we have go-",shall teach them to your children ! And as we have go-,56,3,0.05357142857142857,1,2,0
+line_238.png,"they may be as frontlets between your eyes . "" First to","they may be as frontlets between your eyes "" first to",55,3,0.05454545454545454,1,2,0
+line_239.png,them without visionary power .,them without visionary power .,30,0,0.0,0,0,0
+line_240.png,"to bind them for a sign upon your hand , that","the bind them for a sign upon your hand , that",45,2,0.044444444444444446,1,0,1
+line_241.png,"ne through the mill , we need not teach them","me through the mill , we need not teach them",44,1,0.022727272727272728,1,0,0
+line_242.png,children will grasp now what will befall,children will grasp now what will befall,40,0,0.0,0,0,0
+line_243.png,"bind them to have the vision and then "" And 1ye","bind them to have the vision and then "" And I've",47,3,0.06382978723404255,2,0,1
+line_244.png,And the sequence in the text is different than,And the sequence in the text is different than,46,0,0.0,0,0,0
+line_245.png,And they are ( 1 ) Matzo ; ( 2 ) Bitter Herbs ; ( 3 ) Salt-water and,And they are Q ) Matzo ; ( better Herbs ( ( 3 . South-water and,68,14,0.20588235294117646,7,6,1
+line_246.png,just as there is a message sealed in the four emblems which,Just as there is a message sealed in the four eublems which,59,2,0.03389830508474576,2,0,0
+line_247.png,back .,back .,6,0,0.0,0,0,0
+line_248.png,And the tsitsits had a message sealed inside the knots,And the tsitsits had a message sealed inside the knots,54,0,0.0,0,0,0
+line_249.png,Charauses ( a kind of fruit mixture in likeness of the,charouses ( a kind of fruit mixture in likeness of the,54,2,0.037037037037037035,2,0,0
+line_250.png,appearance of mortar ) ; and ( 4 ) an attitude to lean,appearance of mortar ) ; and ( 4 ) an attitude to learn,54,1,0.018518518518518517,0,0,1
+line_251.png,"are used on Passover , to depict the "" time of our freedom "" .","are used on Passover , to depict the "" time of our freedom """,62,2,0.03225806451612903,0,2,0
+line_252.png,symbolises the bitterness that is hurled against us .,symbolises the bitterness that is hurled against us,53,2,0.03773584905660377,0,2,0
+line_253.png,"( 1 ) Matzos is deficient bread , ( LECHEM ANJO in Hebrew ) ,","( ) Matzos is deficient bread , ( Lechem ANJO in Hebrew )",61,9,0.14754098360655737,5,4,0
+line_254.png,and that God dwells within us .,and that God dwells within us .,31,0,0.0,0,0,0
+line_255.png,"We eat it . We accept it , to show we have self-control",We eat it . We accept it . to show we have self-control,55,1,0.01818181818181818,1,0,0
+line_256.png,to learn . Education is always the most important task .,to learn . Education is always the most important task .,56,0,0.0,0,0,0
+line_257.png,"so are we deficient without spiritual knowledge , and to","so are we deficient without spiritual knowledge , and to",56,0,0.0,0,0,0
+line_258.png,Education gives : Freedom of Speech . ( 2 ) Bitter Herbs,Education gives : Freedom of Speech . ( 2 ) Bitter Herbs,56,0,0.0,0,0,0
+line_259.png,cure our mental incapacity we should be willing,cure our mental incapacity we should be willing,47,0,0.0,0,0,0
+line_260.png,"facts "" together and explains them , represents the Oral","facts "" to gather and explains them , represents the oral",56,3,0.05357142857142857,2,0,1
+line_261.png,the salt-water at the Seder-Table represents the Covenant of the Torah,the salt-water at the Seder-Table represents the Covenant of the Torah,70,0,0.0,0,0,0
+line_262.png,Self-control gives us : Freedom to worship God . ( 3 ) Salt Water and Charauses :,Self-control gives us . Freedom to worship God . ( 3 ) South Water and Chair-nnes .,81,9,0.1111111111111111,7,0,2
+line_263.png,ourselves and have peace with one-another . And the sweet,aurseliness and have peace with one-anathes . And the Sweet,57,7,0.12280701754385964,5,0,2
+line_264.png,"Mortar ( the CHARAUSES in Hebrew ) that binds all the "" hard-","Morton . The CHARAMES in Hebrew ) that binds all the "" hand-",61,7,0.11475409836065574,6,1,0
+line_265.png,"( MELACH BRITH ELOHECHO in Hebrew , Salt is the covenant of 1thy God ,","CALELAKH BRITH ELOHECHO in Hebrew , Salt is the covenant of this God ,",70,7,0.1,5,1,1
+line_266.png,Tradition .,production .,11,4,0.36363636363636365,3,0,1
+line_267.png,"Levit. 2 , 13 . ) Salt preserves and we should have this salt in","Levit. 2 , B. ) Salt preserves and we should have this salt in",64,3,0.046875,1,2,0
+line_268.png,11 ) . That gives us freedom from want .,all . That gives us freedom from work .,40,7,0.175,6,1,0
+line_269.png,"meek : "" But the meek shall inherit the earth ; and shall","meeks . "" But the week shall inherit the earth ; and shall",57,3,0.05263157894736842,2,0,1
+line_270.png,"Living the life of the Torah ( "" dipping-in "" ) makes us","Living the life of the Torah ( "" digging -in"" I makes us",56,5,0.08928571428571429,3,1,1
+line_271.png,"delight themselves in the abundance of Peace "" ( Psalm 37 ,","delight themselves in the abundance of Peace ( Psalm 37 ,",59,2,0.03389830508474576,0,2,0
+line_272.png,"We dip into both , at the Seder . And we want to understand","We dig into both , at the Fedef . And we want to understand",59,3,0.05084745762711865,3,0,0
+line_273.png,"more of the Torah and the Oral Tradition , our inheritance .","more of the Torah and the Old Tradition , our inheritance .",60,3,0.05,2,1,0
+line_274.png,( This is the PARDUS . ) Matzo represents,( This is the PARDUS ) . Matzo represents,41,2,0.04878048780487805,2,0,0
+line_275.png,Derush ; ( 4 ) Leaning-back represents Saud .,Dermish ; C41 ) Leaning-back representative . Sand,45,15,0.3333333333333333,6,2,7
+line_276.png,how to live and accept all the bitterness,how to live and accept all the bitterness,41,0,0.0,0,0,0
+line_277.png,and the sweet Mortar in which we dip-in represents,and the sweet Mortar in which we die-in represents,50,1,0.02,1,0,0
+line_278.png,is called : The Feast of Matzos . The,is called . The Feast of Matzos . The,37,1,0.02702702702702703,1,0,0
+line_279.png,"principle and this gives us "" a wink "" ( Remez )","principle . and this gives us "" a mink "" Cheney",48,10,0.20833333333333334,5,3,2
+line_280.png,represents Remez ; ( 3 ) Dipping-in represents,representr ; ( 3 ) Dieering-in represents,46,10,0.21739130434782608,3,6,1
+line_281.png,that is hurled against us . The Salt-water,that is hurled against us . The Salt-water,42,0,0.0,0,0,0
+line_282.png,the literal meaning of Pesach which,the literal meaning of Pesach which,35,0,0.0,0,0,0
+line_283.png,( 1 ) Matzo represents Peshat ; ( 2 ) Moraur,61 Matzo representr Peshaft ; ( 2 1 Moranr,44,8,0.18181818181818182,4,3,1
+line_284.png,Bitter-Herbs represent the spiritual,Bitter-Herby represent the spiritual,36,1,0.027777777777777776,1,0,0
+line_285.png,the richness of the Law and that we should,the richness of the Law and that we should,42,0,0.0,0,0,0
+line_286.png,"freedoms "" which are Divine . There are four ways of","freedoms "" which are Divine . There are four ways of",52,0,0.0,0,0,0
+line_287.png,burdens of Egypt . ( 2 ) I will rid you of their bondage .,burdens of Egypt . ( all will rid you of their bondage,58,7,0.1206896551724138,3,4,0
+line_288.png,redemption : ( 1 ) I will bring you out from under the,redemption : I'll I will bring you out from under the,54,5,0.09259259259259259,4,1,0
+line_289.png,"And we answer , that the Lord our God gave us "" four freedoms ""","And we answer , that the Lord our God gave us "" four freedoms """,63,0,0.0,0,0,0
+line_290.png,without which Society cannot make progress . And we drink,without which society cannot make progress . And we drink,57,1,0.017543859649122806,1,0,0
+line_291.png,""" four cups "" to thank the Lord our God for the "" four",""" four cups "" to thank the Lord our God for the "" four",54,0,0.0,0,0,0
+line_292.png,burdens of Egypt : How was it that Israel was,burdens of Egypt . How was it that Israel was,45,1,0.022222222222222223,1,0,0
+line_293.png,"Because , they kept the Passover and they were","Because , they kept the Passover and they were",46,0,0.0,0,0,0
+line_294.png,people . ( 1 ) I will bring you out from under the,people . ( I will bring you out from under the,50,4,0.08,0,4,0
+line_295.png,( 3 ) I will redeem you . ( 4 ) I will take you to me for a,( 3 ) I will redeem you . but I will take you to me for a,59,5,0.0847457627118644,3,2,0
+line_296.png,was known even to Abraham and Lot .,was known even to Abraham and Lof .,35,1,0.02857142857142857,1,0,0
+line_297.png,brought out from under the burdens of Egypt ?,brought out from under the burdens of Egypt ?,45,0,0.0,0,0,0
+line_298.png,"eating Matzos in Egypt and the "" Feast of Matzos ""","eating Matzos in Egypt and the "" feast of Matzos """,50,1,0.02,1,0,0
+line_299.png,derived little comfort from it .,derived little comfort from it .,32,0,0.0,0,0,0

@@ -60,7 +60,7 @@ def apply_one_error(text, rng):
     # fall back to ordinary character noise.
     operation = rng.choices(
         ["confusion", "substitute", "delete", "insert", "boundary"],
-        weights=[3, 3, 2, 2, 1],
+        weights=[3, 3, 3, 1, 1],
         k=1,
     )[0]
 
